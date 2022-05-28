@@ -1,0 +1,82 @@
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
+      <img style="height:  70px; width: 70px;" src="../../../assets/img/brand/logo_co.png">
+    </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand">
+            <a [routerLink]="['/home']">
+              <img src="./assets/img/brand/logo_co.png">
+            </a>
+          </div>
+          <div class="col-6 collapse-close">
+            <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+                  [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item dropdown">
+          <a  routerLink="/" class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-building d-lg-none"> HOME</i>
+            <span class="nav-link-inner--text"> HOME</span>
+          </a>
+         
+        </li>
+        <li class="nav-item dropdown">
+          <a  routerLink="/co-dashboard" class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-ui-04 d-lg-none"> CO TOKEN</i>
+            <span class="nav-link-inner--text"> CO TOKEN</span>
+          </a>
+         
+        </li>
+        <li class="nav-item dropdown">
+          <a routerLink="/cash-dashboard" class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"> CASH TOKEN</i>
+            <span class="nav-link-inner--text"> CASH TOKEN</span>
+          </a>
+        
+        </li>
+      </ul>
+      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
+            <i class="fa fa-instagram"></i>
+            <span class="nav-link-inner--text d-lg-none">Instagram</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
+            <i class="fa fa-facebook-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Facebook</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
+            <i class="fa fa-twitter-square"></i>
+            <span class="nav-link-inner--text d-lg-none">Twitter</span>
+          </a>
+        </li>
+     
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a href="#" target="_blank" class="btn btn-neutral btn-icon">
+            <span style="color: #0A0A0A" class="btn-inner--icon">
+              <i class="fa fa-space-shuttle mr-2"></i>
+            </span>
+            <span style="color: #0A0A0A" class="">CONNECT</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

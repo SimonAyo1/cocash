@@ -1,0 +1,59 @@
+::ng-deep a.nav-link.active {
+  border-radius: 10px 10px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+::ng-deep #ngb-tab-0 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+::ng-deep #ngb-tab-1 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+::ng-deep #ngb-tab-2 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+::ng-deep #ngb-tab-3 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+::ng-deep #ngb-tab-4 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+::ng-deep #ngb-tab-5 {
+  border-radius: 10px 10px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  padding: 10px 19px;
+  background-color: #0a0a0a;
+  color: #fff;
+}
